@@ -185,6 +185,10 @@ def install_homebrew
   run %{brew cask install iterm2}
   run %{brew cask install slack}
   run %{brew cask install visual-studio-code}
+  run %{brew cask install cyberduck}
+  run %{brew cask install spotify}
+  run %{brew cask install evernote}
+  brew cask install royal-tsx
   puts
   puts
 end
