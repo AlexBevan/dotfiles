@@ -183,6 +183,8 @@ def install_homebrew
   run %{brew install wget}
   run %{brew install golang}
   run %{brew cask install iterm2}
+  run %{brew cask install slack}
+  run %{brew cask install visual-studio-code}
   puts
   puts
 end
