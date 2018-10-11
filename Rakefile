@@ -191,6 +191,7 @@ def install_homebrew
   run %{brew cask install dropbox}
   run %{brew cask install royal-tsx}
   run %{brew cask install google-drive}
+  run %{brew cask install caffeine}
   puts
   puts
 end
