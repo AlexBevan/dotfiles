@@ -182,6 +182,7 @@ def install_homebrew
   run %{brew install azure-cli}
   run %{brew install wget}
   run %{brew install golang}
+  run %{brew cask install iterm2}
   puts
   puts
 end
