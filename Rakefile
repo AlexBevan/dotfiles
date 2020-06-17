@@ -187,7 +187,7 @@ def install_homebrew
   run %{brew cask install visual-studio-code}
   run %{brew cask install cyberduck}
   run %{brew cask install spotify}
-  run %{brew cask install evernote}
+  run %{brew cask install notion}
   run %{brew cask install dropbox}
   run %{brew cask install royal-tsx}
   run %{brew cask install google-drive}
