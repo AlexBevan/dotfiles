@@ -182,16 +182,15 @@ def install_homebrew
   run %{brew install azure-cli}
   run %{brew install wget}
   run %{brew install golang}
-  run %{brew cask install iterm2}
-  run %{brew cask install slack}
-  run %{brew cask install visual-studio-code}
-  run %{brew cask install cyberduck}
-  run %{brew cask install spotify}
-  run %{brew cask install notion}
-  run %{brew cask install dropbox}
-  run %{brew cask install royal-tsx}
-  run %{brew cask install google-drive}
-  run %{brew cask install caffeine}
+  run %{brew install --cask iterm2}
+  run %{brew install --cask slack}
+  run %{brew install --cask visual-studio-code}
+  run %{brew install --cask cyberduck}
+  run %{brew install --cask spotify}
+  run %{brew install --cask notion}
+  run %{brew install --cask dropbox}
+  run %{brew install --cask royal-tsx}
+  run %{brew install --cask google-drive}
   puts
   puts
 end
