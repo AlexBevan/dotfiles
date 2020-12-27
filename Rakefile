@@ -182,6 +182,7 @@ def install_homebrew
   run %{brew install azure-cli}
   run %{brew install wget}
   run %{brew install golang}
+  run %{brew install starship}
   run %{brew install --cask iterm2}
   run %{brew install --cask slack}
   run %{brew install --cask visual-studio-code}
